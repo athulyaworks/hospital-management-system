@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Our Doctors{% endblock %}
+
+{% block content %}
+  <h1 class="doctors-heading">OUR DOCTORS</h1>
+  <div class="doctors-container">
+    <!-- Row with 3 boxes -->
+    <div class="doctor-row">
+      <div class="doctor-box">
+        <img src="{% static 'images/doc1.webp' %}" alt="Doctor Image">
+        <h3>Dr. Leo</h3>
+        <p>Cardiology</p>
+      </div>
+      <div class="doctor-box">
+        <img src="{% static 'images/doc2.jpg' %}" alt="Doctor Image">
+        <h3>Dr. Ian</h3>
+        <p>Orthopedics</p>
+      </div>
+      <div class="doctor-box">
+        <img src="{% static 'images/doc3.jpg' %}" alt="Doctor Image">
+        <h3>Dr. Canyaman</h3>
+        <p>Neurology</p>
+      </div>
+      
+      
+    </div>
+    
+    <!-- Row with 3 boxes -->
+    <div class="doctor-row">
+      <div class="doctor-box">
+        <img src="{% static 'images/doc4.webp' %}" alt="Doctor Image">
+        <h3>Dr. Demetozdemir</h3>
+        <p>Dermatology</p>
+      </div>
+      <div class="doctor-box">
+        <img src="{% static 'images/doc5.jpeg' %}" alt="Doctor Image">
+        <h3>Dr. Shaun</h3>
+        <p>Pediatrics</p>
+      </div>
+      <div class="doctor-box">
+        <img src="{% static 'images/h6.jpg' %}" alt="Doctor Image">
+        <h3>Dr. Emily White</h3>
+        <p>Oncology</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

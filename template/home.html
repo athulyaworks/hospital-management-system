@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<!-- Main Content -->
+<div class="home-main-image">
+    <img src="{% static 'images/hosp1.jpg' %}" alt="Hospital">
+    <div class="home-blue-overlay"></div>
+    <div class="home-text-overlay">You are in the Right Place at the Right Time</div>
+    <div class="home-paragraph">
+      <p>Your health is our priority. We ensure you and your family receive the best possible medical care and assistance. 
+        We strive to create a warm and safe healing environment for you and your family. 
+      </p>
+    </div>
+  </div>
+
+  <div class="home-choose">
+    <h1>Why patients choose our center</h1>
+    <p>With state-of-the-art facilities and a dedicated team of experts, we provide the highest standard of healthcare in a compassionate and welcoming environment.</p>
+    <div class="home-image">
+      <img src="{% static 'images/h1.jpg' %}" alt="Hospital">
+    </div>
+  </div>
+
+{% endblock %}
